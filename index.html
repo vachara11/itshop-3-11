@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สินค้า</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vantajs/style.css">
+</head>
+<body>
+    <!-- ส่วนหัวของเว็บไซต์ -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4e067d;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">IT Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="src/product.html">product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="src/contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ภาพสไลด์ -->
+     <header id="your-element-selector" class="header">
+      <h1><strong>IT Shop</strong></h1>
+     </header>
+    <!-- จบส่วนหัวของเว็บไซต์ -->
+    <!-- ส่วนเนื้อหา -->
+    <div class="container">
+        <div class="row mt-4 text-center">
+            <h1>สินค้า</h1>
+        </div>
+        <!-- แถวที่ 1 -->
+        <div class="row mt-5 text-center">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="image/04.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ASUS</h5>
+                  <p class="card-text">39,999 บาท</p>
+                  <a href="#" class="btn btn-primary">สั่งซื้อ</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="image/05.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">OPPO</h5>
+                  <p class="card-text">19,999 บาท</p>
+                  <a href="#" class="btn btn-primary">สั่งซื้อ</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="image/06.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Infinix</h5>
+                  <p class="card-text">29,999 บาท</p>
+                  <a href="#" class="btn btn-primary">สั่งซื้อ</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- แถวที่ 2 -->
+        <div class="row mt-5 text-center">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="image/04.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ASUS</h5>
+                    <p class="card-text">39,999 บาท</p>
+                    <a href="#" class="btn btn-primary">สั่งซื้อ</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="image/05.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">OPPO</h5>
+                    <p class="card-text">19,999 บาท</p>
+                    <a href="#" class="btn btn-primary">สั่งซื้อ</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="image/06.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Infinix</h5>
+                    <p class="card-text">29,999 บาท</p>
+                    <a href="#" class="btn btn-primary">สั่งซื้อ</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    <!-- จบเนื้อหา -->
+    <!-- ส่วนท้ายเว็บไซต์ -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+    <footer class="text-center mt-5 text-lg-start" style="background-color: #9730db;">
+      <!-- Copyright -->
+      <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright: watchara 
+       
+      </div>
+      <!-- Copyright -->
+    </footer>
+    
+    <!-- จบส่วนท้ายของเว็บไซต์ -->
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vantajs/three.r134.min.js"></script>
+    <script src="vantajs/vanta.net.min.js"></script>
+    <script>
+      VANTA.NET({
+        el: "#your-element-selector",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0xff3fe9,
+        backgroundColor: 0x400251,
+        points: 9.00,
+        maxDistance: 21.00
+      })
+      </script>
+</body>
+</html>
